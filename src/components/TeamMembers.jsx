@@ -36,14 +36,14 @@ const TeamMembers = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="text-center">
-        <div className="flex items-center justify-center gap-2 text-blue-600">
+        <div className="flex items-center justify-center gap-2 gray">
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
           <span>Our Team</span>
         </div>
         <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet Our Dedicated</h2>
-        <h3 className="text-3xl font-bold tracking-tight text-blue-600 sm:text-4xl">Team Members</h3>
+        <h3 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">Team Members</h3>
         <p className="mt-4 text-lg leading-8 text-gray-600">
           Working together to bridge the gap between talent and opportunity
         </p>
@@ -56,7 +56,7 @@ const TeamMembers = () => {
               onClick={() => setActiveTab('technical')}
               className={`pb-4 px-4 ${
                 activeTab === 'technical'
-                  ? 'border-b-2 border-blue-600 text-blue-600'
+                  ? 'border-b-2 text-primary text-primary'
                   : 'text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -71,7 +71,7 @@ const TeamMembers = () => {
               onClick={() => setActiveTab('non-technical')}
               className={`pb-4 px-4 ${
                 activeTab === 'non-technical'
-                  ? 'border-b-2 border-blue-600 text-blue-600'
+                  ? 'border-b-2 text-primary text-primary'
                   : 'text-gray-500 hover:text-gray-700'
               }`}
             >

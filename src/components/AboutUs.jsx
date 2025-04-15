@@ -5,8 +5,8 @@ function AboutUs() {
     <div className="relative max-w-[1200px] mx-auto p-8 bg-white">
       <div className="absolute inset-0 bg-dotted-pattern bg-dot-lg opacity-100 pointer-events-none z-0"></div>
       <div className="text-center mb-12">
-        <span className="bg-blue-50 text-blue-500 px-4 py-2 rounded-full text-sm">About Us</span>
-        <h2 className="text-4xl mt-4 mb-4 text-gray-900">Who are <span className="text-blue-500">we</span>?</h2>
+        <span className="bg-blue-50 gray px-4 py-2 rounded-full text-sm">About Us</span>
+        <h2 className="text-4xl mt-4 mb-4 text-gray-900">Who are <span className="text-primary">we</span>?</h2>
       </div>
 
       <div className="flex gap-16 items-start flex-col lg:flex-row">
@@ -27,7 +27,7 @@ function AboutUs() {
             companies, as well as government departments and foreign universities.
           </p>
 
-          <p className="text-blue-500 font-medium mb-8">
+          <p className="text-primary font-medium mb-8">
             Some top-notch organizations where our students have interned and secured 
             placements include:
           </p>
@@ -60,19 +60,19 @@ function AboutUs() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
             <div className="text-center">
-              <h3 className="text-4xl text-blue-500 mb-2">40+</h3>
+              <h3 className="text-4xl text-primary mb-2">40+</h3>
               <p className="text-gray-600">Years of Excellence</p>
             </div>
             <div className="text-center">
-              <h3 className="text-4xl text-blue-500 mb-2">300+</h3>
+              <h3 className="text-4xl text-primary mb-2">300+</h3>
               <p className="text-gray-600">Partner Companies</p>
             </div>
             <div className="text-center">
-              <h3 className="text-4xl text-blue-500 mb-2">95%</h3>
+              <h3 className="text-4xl text-primary mb-2">95%</h3>
               <p className="text-gray-600">Placement Rate</p>
             </div>
             <div className="text-center">
-              <h3 className="text-4xl text-blue-500 mb-2">1500+</h3>
+              <h3 className="text-4xl text-primary mb-2">1500+</h3>
               <p className="text-gray-600">Students</p>
             </div>
           </div>
