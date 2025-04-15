@@ -5,8 +5,8 @@ const InternshipCard = ({ course, year, duration, dates, joining }) => {
   return (
     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
       <div className="flex items-center gap-2 mb-4">
-        <GraduationCap className="w-5 h-5 text-blue-600" />
-        <div className="text-blue-600 font-semibold">{course}</div>
+        <GraduationCap className="w-5 h-5 text-primary" />
+        <div className="text-primary font-semibold">{course}</div>
         <div className="text-gray-600">({year})</div>
       </div>
       <div className="space-y-3">
