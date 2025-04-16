@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './components/Home.jsx'
 import ContactUs from './components/ContactUs.jsx'
-import BarGraph from './components/Bargraph.jsx'
+import BarGraph from './components/BarGraph.jsx'
 
 const router = createBrowserRouter([
   {
