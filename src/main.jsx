@@ -8,6 +8,8 @@ import TeamMembers from './components/TeamMembers.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './components/Home.jsx'
+import ContactUs from './components/ContactUs.jsx'
+import BarGraph from './components/Bargraph.jsx'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
       {
         path:'/team',
         element : <TeamMembers/>
+      },
+      {
+        path:'/contact',
+        element : <ContactUs/>
+      },
+      {
+        path:'/data',
+        element : <BarGraph/>
       }
     ]
   }

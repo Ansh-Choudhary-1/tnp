@@ -13,9 +13,9 @@ function Header() {
               <div className="flex items-center space-x-4">
                 <Link to ="/about-us"><a  className="text-gray-700 hover:text-gray-900">About Us</a></Link>
                 <Link to ='/recruiters'><a  className="text-gray-700 hover:text-gray-900">For Recruiters</a></Link>
-                <Link to='#'><a className="text-gray-700 hover:text-gray-900">Placement Stats</a></Link>
+                <Link to='/data'><a className="text-gray-700 hover:text-gray-900">Placement Stats</a></Link>
                 <Link to='/team'><a className="text-gray-700 hover:text-gray-900">Our Team</a></Link>
-                <Link><a className="text-gray-700 hover:text-gray-900">Contact Us</a></Link>
+                <Link to='/contact'><a className="text-gray-700 hover:text-gray-900">Contact Us</a></Link>
               </div>
             </div>
           </div>
