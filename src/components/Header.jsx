@@ -4,39 +4,49 @@ function Header() {
   return (
     <header>
         {/* Upper Navigation */}
-        <div className="bg-white border-b">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center py-4">
-              <div className="flex items-center">
-                <img src="https://www.tnpnsut.in/static/media/NSUTlogo.33414252dc1dd6934309.png" alt="NSUT Logo" className="h-12 w-12" />
-              </div>
-              <div className="flex items-center space-x-4">
-                <Link to ="/about-us"><a  className="text-gray-700 hover:text-gray-900">About Us</a></Link>
-                <Link to ='/recruiters'><a  className="text-gray-700 hover:text-gray-900">For Recruiters</a></Link>
-                <Link to='/data'><a className="text-gray-700 hover:text-gray-900">Placement Stats</a></Link>
-                <Link to='/team'><a className="text-gray-700 hover:text-gray-900">Our Team</a></Link>
-                <Link to='/contact'><a className="text-gray-700 hover:text-gray-900">Contact Us</a></Link>
-              </div>
-            </div>
-          </div>
+        <div className='w-full mx-auto '>
+        <div className='bg-gradient-to-r from-red-600 to-rose-600 text-white py-2'>
+           <p className='text-center text-sm font-medium'>Training and Placements - Netaji Subhas University of Technology</p>
         </div>
+        <div className='flex w-full justify-between items-center px-4 h-16'>
+            <div className='text-2xl font-bold'>
+            <img src="https://www.tnpnsut.in/static/media/NSUTlogo.33414252dc1dd6934309.png" alt="NSUT Logo" className="h-12 w-12" />
 
-        {/* Lower Navigation */}
-        <div className="bg-gray-50 shadow-sm">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center py-3">
-              <nav className="flex space-x-8">
-                <a href="http://www.nsut.ac.in/hi/about-nsut" className="text-gray-700 hover:text-gray-900">About NSUT</a>
-                <a href="http://www.nsut.ac.in/hi/photo-gallery" className="text-gray-700 hover:text-gray-900">Media</a>
-                <a href="http://www.nsut.ac.in/hi/node/1265" className="text-gray-700 hover:text-gray-900">Academic Curriculum</a>
-                <a href="http://www.nsut.ac.in/hi/node/335" className="text-gray-700 hover:text-gray-900">Alumni</a>
-              </nav>
-              <button className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition-colors">
-                Login
-              </button>
+
             </div>
-          </div>
+            <div className='flex space-x-4'>
+                <a href="/about-us" className='text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium'>About Us</a>
+                <a href="/Recruiters" className='text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium'>For Recruiters</a>
+                <a href="/data" className='text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium'>Placement Stats</a>
+                <a href="/team" className='text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium'>Our Team</a>
+                <a href="/contact" className='text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium'>Contact Us</a>
+
+            </div>
+
         </div>
+        <nav className='bg-gray-50 border-b  border-gray-200'>
+            <div className='max-w-7xl mx-auto px-4'></div>
+        </nav>
+        <div className='bg-gray-50 border-b  border-gray-200'>
+            <div className='w-full mx-auto '>
+            <div className='flex px-4 w-full justify-between items-center h-12'>
+            
+            <div className='flex space-x-4'>
+                <a href="#" className='text-sm font-medium text-gray-600 hover:text-blue-600'>About NSUT</a>
+                <a href="#" className='text-sm font-medium text-gray-600 hover:text-blue-600'>Media</a>
+                <a href="#" className='text-sm font-medium text-gray-600 hover:text-blue-600'>Academic Curriculum</a>
+                <a href="#" className='text-sm font-medium text-gray-600 hover:text-blue-600'>Alumni</a>
+
+            </div>
+            <div className='h-8 w-24 flex justify-center items-center mr-10 bg-rose-600 rounded rounded-lg'>
+                <a href="#" className='text-sm font-medium text-gray-100 hover:text-gray-200'>Login</a>
+                
+            </div>
+
+        </div>
+            </div>
+        </div>
+    </div>
       </header>
   )
 }
