@@ -10,7 +10,8 @@ function Header() {
         </div>
         <div className='flex w-full justify-between items-center px-4 h-16'>
             <div className='text-2xl font-bold'>
-            <img src="https://www.tnpnsut.in/static/media/NSUTlogo.33414252dc1dd6934309.png" alt="NSUT Logo" className="h-12 w-12" />
+            <Link to='/'><img src="https://www.tnpnsut.in/static/media/NSUTlogo.33414252dc1dd6934309.png" alt="NSUT Logo" className="h-12 w-12" /></Link>
+            
 
 
             </div>
